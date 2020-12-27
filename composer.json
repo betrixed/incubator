@@ -29,12 +29,7 @@
         "email": "support@phalcon.io"
     },
     "require": {
-        "php": ">=8.0",
-        "phalcon/incubator-acl": "^1.0.0-alpha.1",
-        "phalcon/incubator-session": "^1.0",
-        "phalcon/incubator-test": "^1.0.0-alpha.1",
-        "phalcon/incubator-logger": "^1.0",
-        "phalcon/incubator-config": "^1.0"
+        "php": ">=8.0"
     },
     "require-dev": {
         "phpdocumentor/reflection-docblock": "2.0.4",
@@ -42,7 +37,12 @@
         "vlucas/phpdotenv": "^2.4",
         "phalcon/dd": "^1.1",
         "doctrine/instantiator": "1.0.5",
-        "phalcon/ide-stubs": "^4.0"
+        "phalcon/ide-stubs": "^4.0",
+        "phalcon/incubator-acl": "^1.0.0-alpha.1",
+        "phalcon/incubator-session": "^1.0",
+        "phalcon/incubator-test": "^1.0.0-alpha.1",
+        "phalcon/incubator-logger": "^1.0",
+        "phalcon/incubator-config": "^1.0"
     },
     "suggest": {
         "duncan3dc/fork-helper": "To use extended class to access the beanstalk queue service",
